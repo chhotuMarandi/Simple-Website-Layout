@@ -6,7 +6,7 @@ body {
     background-color: #1da6bb;
     display: flex;
     justify-content: space-between;
-    padding: 16px;
+    padding: 0 40px;
     color: #FFFFFD;
     align-items: center;
 }
@@ -14,6 +14,11 @@ body {
 .nav {
     list-style: none;
     display: flex;
-    gap: 8px;
+    gap: 20px;
     font-size: 1.5rem;
+}
+
+.nav li:hover {
+    color: #124054;
+    cursor: pointer;
 }

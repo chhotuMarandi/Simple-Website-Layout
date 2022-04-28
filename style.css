@@ -6,7 +6,7 @@ body {
     background-color: #1da6bb;
     display: flex;
     justify-content: space-between;
-    padding: 0 40px;
+    padding: 0 150px;
     color: #FFFFFD;
     align-items: center;
 }
@@ -21,4 +21,78 @@ body {
 .nav li:hover {
     color: #124054;
     cursor: pointer;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #b6dfde;
+    padding: 50px 80px;
+}
+
+.welcome {
+    padding: 45px 45px;
+    max-width: 760px; 
+}
+
+.btn {
+    text-decoration: none;
+    background-color: #146c85;
+    color: #FFFFFD;
+    border-radius: 8px;
+    text-align: center;
+    padding: 10px 16px;
+    display: inline-block;
+}
+.welcome p { 
+    line-height: 1.6;
+    font-size: 1.2rem;
+}
+
+.welcome h1 {
+    font-size: 4rem;
+    font-weight: normal;
+    margin: 0;
+}
+
+.grid {
+    background-color: #e2e2e2;
+    padding: 60px 45px;
+}
+
+.features {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-column-gap: 40px;
+    grid-row-gap: 10px;
+}
+
+.box {
+    border: 1px solid rgb(54, 53, 53);
+    padding: 16px;
+    margin: 8px;
+    border-radius: 8px;
+    background-color: #e2e2e2;
+}
+
+.box p {
+    line-height: 1.4;
+    font-size: 1.1rem;
+    font-weight: normal;
+    color: black;
+}
+
+.box h3 {
+    font-size: 1.3rem;
+    font-weight: normal;
+    margin: 0;
+    border-bottom: 1px solid #FFFFFD;
+    background-color: #0a5d96;
+    color: #FFFFFD;
+    display: inline-block;
+    padding: 5px 8px;
+    border-radius: 5px;
 }

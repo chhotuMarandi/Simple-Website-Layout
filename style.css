@@ -6,9 +6,10 @@ body {
     background-color: #1da6bb;
     display: flex;
     justify-content: space-between;
-    padding: 0 150px;
+    padding: 0 180px;
     color: #FFFFFD;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .nav {
@@ -71,11 +72,12 @@ body {
 }
 
 .box {
-    border: 1px solid rgb(54, 53, 53);
+    border: 1px solid #cdcdce;
     padding: 16px;
     margin: 8px;
     border-radius: 8px;
     background-color: #e2e2e2;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;;
 }
 
 .box p {
@@ -95,4 +97,12 @@ body {
     display: inline-block;
     padding: 5px 8px;
     border-radius: 5px;
+}
+
+.footer {
+    text-align: center;
+    margin: 60px;
+    color: #77767c;
+    padding: 8px 40px;
+    font-size: 1rem;
 }
